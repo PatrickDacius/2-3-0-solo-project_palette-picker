@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/Patricks-palette-picker/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Patrick's Palette Picker</title>
+  <script type="module" crossorigin src="/Patricks-palette-picker/assets/index-mpoNVdVi.js"></script>
+  <link rel="stylesheet" crossorigin href="/Patricks-palette-picker/assets/index-BQHUqhlv.css">
+</head>
+
+<body>
+  <h1 id="head-of-page">Palette Picker</h1>
+  <div id="app">
+    <main>
+      <div class="header-of-page">
+        <section id="add-container">
+          <form id="palette-picker">
+            <div id="elements-of-container">
+              <h2 id="name-ofcontainer">Add a palette</h2>
+              <div id="title-container">
+                <label for="pal-title">Palette Title: </label>
+                <input type="text" id="pal-title" name="titleOfPalette">
+              </div>
+              <div>
+                <label for="color-1">Color #1</label>
+                <input type="color" name="firstColor" id="color-1">
+              </div>
+              <div>
+                <label for="color-2">Color #2</label>
+                <input type="color" name="secondColor" id="color-2">
+              </div>
+              <div>
+                <label for="color-3">Color #3</label>
+                <input type="color" name="thirdColor" id="color-3">
+              </div>
+              <fieldset>
+                <legend>Temperature</legend>
+                <input type="radio" id="warm" name="temp" value="warm">
+                <label for="warm">Warm</label>
+                <input type="radio" id="neutral" name="temp" value="neutral" checked>
+                <label for="neutral">Neutral</label>
+                <input type="radio" name="temp" id="cool" value="cool">
+                <label for="cool">Cool</label>
+              </fieldset>
+              <button id="create-palette">Create the palette</button>
+          </form>
+      </div>
+      </section>
+  </div>
+  <h2 id="cards-title">Palettes</h2>
+  <ul id="palette-cards">
+    <!-- Palette cards will be added here -->
+  </ul>
+  </main>
+  </div>
+</body>
+
+</html>

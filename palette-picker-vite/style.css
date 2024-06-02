@@ -1,0 +1,257 @@
+.button-class {
+  background-color: #888;
+  color: white;
+  border: none;
+  /* padding: 10px 15px; */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.delete-button {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+.delete-button:hover {
+  background-color: #c9302c;
+}
+
+/* .button-class:hover {
+  background-color: #555;
+} */
+
+.holder-of-txt {
+  padding: 5px;
+  display: flex;
+  flex-flow: row;
+  gap: 7px;
+  border-style: solid;
+  border-width: 6px;
+  border-color: white white black black;
+}
+
+
+.str {
+  font: bolder;
+  font-weight: 1000;
+}
+
+.text-str {
+  color: black;
+  padding: 4%;
+  font: bolder;
+  font-weight: 1000;
+}
+
+#heading-div {
+  font-size: 1.17em;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+
+#palette-heading1,
+#palette-heading2,
+#palette-heading3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* gap: 2rem; */
+}
+
+#head-of-page {
+  display: flex;
+  align-self: flex-start;
+  margin: 1rem;
+}
+
+.header-of-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
+#add-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  padding: 1rem;
+  gap: 1rem;
+  border-radius: .5rem;
+  background-color: #3b3b3b
+}
+
+
+#elements-of-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#h1-title {
+  display: flex;
+  width: 100%;
+}
+
+#custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#custom form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding: 1rem;
+  gap: 1rem;
+  border-radius: 0.5rem;
+  background-color: #46484A;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  list-style-type: none;
+}
+
+#heading-div {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.button-class {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  padding: 0.5rem;
+  font-size: large;
+  margin-left: 8%;
+}
+
+.pre-palette {
+  padding: 0.5rem;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  gap: 2rem;
+  background-color: #46484A;
+}
+
+button {
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-bottom: 0;
+  margin-top: 2rem;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20rem;
+  border-top-right-radius: 3rem;
+  background-color: #9292926f;
+  gap: 1rem;
+}
+
+#delete-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.temp-color {
+  display: flex;
+  justify-content: center;
+  width: 310px;
+  font-size: larger;
+  padding: 0.3rem;
+
+}
+
+#delete {
+  font-size: 14px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.color-text {
+  padding: 0.3rem;
+  display: flex;
+  flex-flow: row;
+  gap: 4px;
+  border-style: solid;
+  border-width: 6px;
+  border-color: white white black black;
+}
+
+.text-font {
+  font-weight: 700;
+  font-size: medium;
+}
+
+.Example-font {
+  color: black;
+  font-weight: 700;
+  font-size: medium;
+}
+
+fieldset {
+  border: none
+}
